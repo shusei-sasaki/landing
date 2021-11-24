@@ -1,0 +1,71 @@
+
+a{font-weight: bolder;
+   transition:
+   color 0.5s ease-out,
+   background-color 0.5s ease-out,
+   linear-gradient o.5s ease-out;
+   color: rgb(20, 100, 150);
+   text-decoration: none;
+}
+
+
+a:visited{
+  color: rgb(20, 90,90);
+}
+
+a:hover{
+  font-size: 20px;
+  font-style: italic;
+  text-decoration: underline;
+  color: #D6BA87;
+  background-color: gray;
+  border-radius: 4px;
+}
+
+.region{
+  color: whitesmoke;
+  text-decoration: none;
+  transition: background-color 0.5s ease-out;
+}
+
+.region:hover{
+  font-size: 50px;
+  font-style: italic;
+  text-decoration: underline;
+  color: whitesmoke;
+  background-color: rgba(200, 200, 200, 0.5);
+  border-radius: 4px;
+}
+
+.region:visited{
+  color: whitesmoke;
+}
+
+.lnk-projects{
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  font-size: 20px;
+  text-decoration: underline solid;
+}
+
+.lnk-projects: hover{
+  font-family: 'Amatic SC', cursive;
+  color: whitesmoke;
+  font-size: 20px;
+  text-decoration: underline solid;
+  background-color: rgba(200, 200, 200, 0.7);
+}
+
+#card-projects a{
+  background-color: rgba(200, 200, 200, 0.5);
+  border-radius: 4px;
+  transition: background-color 0.5s ease-out;
+}
+
+#card-projects a:hover{
+  background-color: #F8AE52;
+}
+
+#card-projects a:visited{
+  color: whitesmoke;
+}

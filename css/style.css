@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&Antic+Slab&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=IBM+Plex+Mono:wght@100;300;400&family=Lobster&family=Permanent+Marker&display=swap");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/link.css");
+@import url("components/card.css");
+@import url("components/img.css");
+@import url("components/list.css");
+
+
+body{
+  font-family: 'Antic Slab', serif;
+  font-size: 18px;
+  margin: 0px;
+  background-color: #A2967F;
+}
+
+h1,h2,h3{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  font-style: italic;
+}

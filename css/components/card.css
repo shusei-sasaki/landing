@@ -1,0 +1,250 @@
+#card-btns{
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#main{
+  margin: 15px;
+  padding: 30px;
+  border: solid;
+  border-color: #675B4D;
+  border-radius: 5px;
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: whitesmoke;
+}
+
+
+#location-choice {
+  display:block;
+  border: solid;
+  border-color: #675B4D;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  padding: 5px 20px;
+}
+
+#location-choice h2{
+  font-family: 'amatic sc', cursive;
+  font-size: 50px;
+  background-color: #D6BA87;
+  padding: 0px 28px;
+}
+
+#regions-cards{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: auto;
+  margin: 0px;
+  border: none;
+}
+
+.card{
+  font-family: 'Lobster', cursive;
+  font-style: normal;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px;
+  box-shadow: 0 10px 20px rgba(100, 100, 100, 0.6);
+}
+
+.card img{
+  width: 300px;
+}
+
+
+.back-img{
+  background-position: center;
+  background-size: cover;
+  color: whitesmoke;
+  padding: 60px;
+  font-size: 50px;
+  display: flex;
+  background-position: center;
+  justify-content: space-around;
+  width: 600px;
+  margin: auto;
+  border-radius: 4px;
+}
+
+@media (max-width: 1580px){
+  .back-img{
+    width: 500px;
+  }
+}
+
+@media (max-width: 1400px){
+  .back-img{
+    width: 400px;
+  }
+}
+
+@media (max-width: 1180px){
+  .back-img{
+    width: 300px;
+  }
+}
+
+
+@media (max-width: 675px){
+  #regions-cards{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: auto;
+    margin: 10px;
+  }
+  .back-img{
+    margin: 10px;
+    width: 300px;
+    padding: 10px;
+  }
+}
+
+
+
+
+#london{
+  background-image:
+    linear-gradient(-225deg, rgba(0, 0, 0, 0.6) 0%, rgba(100, 100, 100, 0.2) 100%) ,
+    url(../../images/london.jpg);}
+
+#london:hover{
+   background-image:
+    linear-gradient(-225deg, rgba(0, 0, 0, 0.8) 0%, rgba(100, 100, 100, 0.6) 100%) ,
+    url(../../images/london.jpg);
+}
+
+#yorkshire{
+  background-image:
+    linear-gradient(-225deg, rgba(0, 0, 0, 0.6) 0%, rgba(100, 100, 100, 0.2) 100%) ,
+    url(../../images/yorkshire.jpg);
+}
+
+#yorkshire:hover{
+   background-image:
+    linear-gradient(-225deg, rgba(0, 0, 0, 0.8) 0%, rgba(100, 100, 100, 0.6) 100%) ,
+    url(../../images/yorkshire.jpg);
+}
+
+#east-midlands{
+  background-image:
+    linear-gradient(-225deg, rgba(0, 0, 0, 0.6) 0%, rgba(100, 100, 100, 0.2) 100%) ,
+    url(../../images/east-midlands.jpg);
+}
+
+#east-midlands:hover{
+   background-image:
+    linear-gradient(-225deg, rgba(0, 0, 0, 0.8) 0%, rgba(100, 100, 100, 0.6) 100%) ,
+    url(../../images/east-midlands.jpg);
+}
+
+#west-midlands{
+  background-image:
+    linear-gradient(-225deg, rgba(0, 0, 0, 0.6) 0%, rgba(100, 100, 100, 0.2) 100%) ,
+    url(../../images/west-midlands.jpg);
+}
+
+#west-midlands:hover{
+   background-image:
+    linear-gradient(-225deg, rgba(0, 0, 0, 0.8) 0%, rgba(100, 100, 100, 0.6) 100%) ,
+    url(../../images/west-midlands.jpg);
+}
+
+#east-of-england{
+  background-image:
+    linear-gradient(-225deg, rgba(0, 0, 0, 0.6) 0%, rgba(100, 100, 100, 0.2) 100%) ,
+    url(../../images/east-of-england.jpg);
+}
+
+#east-of-england:hover{
+   background-image:
+    linear-gradient(-225deg, rgba(0, 0, 0, 0.8) 0%, rgba(100, 100, 100, 0.6) 100%) ,
+    url(../../images/east-of-england.jpg);
+}
+
+#north-east{
+  background-image:
+    linear-gradient(-225deg, rgba(0, 0, 0, 0.6) 0%, rgba(100, 100, 100, 0.2) 100%) ,
+    url(../../images/north-east.jpg);
+}
+
+#north-east:hover{
+   background-image:
+    linear-gradient(-225deg, rgba(0, 0, 0, 0.8) 0%, rgba(100, 100, 100, 0.6) 100%) ,
+    url(../../images/north-east.jpg);
+}
+
+#north-west{
+  background-image:
+    linear-gradient(-225deg, rgba(0, 0, 0, 0.6) 0%, rgba(100, 100, 100, 0.2) 100%) ,
+    url(../../images/north-west.jpg);
+}
+
+#north-west:hover{
+   background-image:
+    linear-gradient(-225deg, rgba(0, 0, 0, 0.8) 0%, rgba(100, 100, 100, 0.6) 100%) ,
+    url(../../images/north-west.jpg);
+}
+
+#south-east{
+  background-image:
+    linear-gradient(-225deg, rgba(0, 0, 0, 0.6) 0%, rgba(100, 100, 100, 0.2) 100%) ,
+    url(../../images/south-east.jpg);
+}
+
+#south-east:hover{
+   background-image:
+    linear-gradient(-225deg, rgba(0, 0, 0, 0.8) 0%, rgba(100, 100, 100, 0.6) 100%) ,
+    url(../../images/south-east.jpg);
+}
+
+#south-west{
+  background-image:
+    linear-gradient(-225deg, rgba(0, 0, 0, 0.6) 0%, rgba(100, 100, 100, 0.2) 100%) ,
+    url(../../images/south-west.jpg);
+}
+
+#south-west:hover{
+   background-image:
+    linear-gradient(-225deg, rgba(0, 0, 0, 0.8) 0%, rgba(100, 100, 100, 0.6) 100%) ,
+    url(../../images/south-west.jpg);
+}
+
+
+#card-projects{
+  display: flex;
+  background-position: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  margin: 30px;
+  padding: 0px 30px;
+  width: auto;
+  border: solid;
+  border-color: black;
+  border-radius: 4px;
+  font-family: 'Amatic SC', cursive;
+  color: whitesmoke;
+  font-size: 20px;
+  background-image:
+    linear-gradient(-225deg, rgba(0, 0, 0, 0.8) 0%, rgba(100, 100, 100, 0.6) 100%),
+    url("../../images/studygroup-computer.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+

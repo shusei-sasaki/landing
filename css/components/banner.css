@@ -1,0 +1,33 @@
+.banner{
+  background-image:
+    linear-gradient(-175deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.4) 100%),
+    url("../../images/canteen.jpeg") ;
+  background-size: cover;
+  background-position: center;
+  padding: 10px 0px;
+  color: white;
+}
+
+.banner h1{
+  font-family: 'permanent marker', cursive;
+  font-size: 100px;
+  margin-bottom: 10px;
+  }
+
+.banner h2{
+  font-size: 24px;
+  font-style: normal;
+  margin-bottom: 30px;
+}
+
+
+.banner p{
+  text-align: center;
+  padding: 10px auto 10px auto;
+}
+
+@media (max-width: 557px) {
+  .banner h1{
+    font-size: 48px;
+  }
+}
